@@ -1,9 +1,8 @@
-// src/components/Modal/Modal.test.tsx
 import { render, fireEvent } from '@testing-library/react-native';
 import React from 'react';
 import { Text } from 'react-native';
 
-import Modal from './Modal';
+import Modal from './modal';
 
 describe('Modal Component', () => {
   test('renders when visible', () => {
