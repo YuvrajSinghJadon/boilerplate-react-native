@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal as RNModal, View, Text, TouchableOpacity, ViewProps } from 'react-native';
 
-import { styles } from './ modal.styles';
+import { styles } from './modal.styles';
 
 interface ModalProps extends ViewProps {
   isVisible: boolean;
